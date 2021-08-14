@@ -1813,19 +1813,19 @@ Please make sure your boards conform to these design rules.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="R1" library="rcl" package="R0603" value="" x="24.13" y="26.67" smashed="yes" rot="R270">
+<element name="R1" library="rcl" package="R0603" value="1k2" x="24.13" y="26.67" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.765" y="29.337" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="21.59" y="27.94" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R2" library="rcl" package="R0603" value="" x="24.13" y="11.43" smashed="yes" rot="R270">
+<element name="R2" library="rcl" package="R0603" value="1k2" x="24.13" y="11.43" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.765" y="14.097" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="21.59" y="12.7" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R3" library="rcl" package="R0603" value="" x="24.13" y="16.51" smashed="yes" rot="R270">
+<element name="R3" library="rcl" package="R0603" value="1k2" x="24.13" y="16.51" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.765" y="19.177" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="21.59" y="17.78" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R4" library="rcl" package="R0603" value="" x="24.13" y="21.59" smashed="yes" rot="R270">
+<element name="R4" library="rcl" package="R0603" value="1k2" x="24.13" y="21.59" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.765" y="24.257" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="21.59" y="22.86" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -1844,19 +1844,19 @@ Please make sure your boards conform to these design rules.</description>
 <element name="T4" library="transistor" package="SOT23" value="BC847" x="38.1" y="21.59" smashed="yes" rot="R270">
 <attribute name="NAME" x="38.735" y="24.257" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 </element>
-<element name="R5" library="rcl" package="R0603" value="" x="29.21" y="26.67" smashed="yes" rot="R270">
+<element name="R5" library="rcl" package="R0603" value="4k7" x="29.21" y="26.67" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.845" y="29.337" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="26.67" y="27.94" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R6" library="rcl" package="R0603" value="" x="29.21" y="11.43" smashed="yes" rot="R270">
+<element name="R6" library="rcl" package="R0603" value="4k7" x="29.21" y="11.43" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.845" y="14.097" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="26.67" y="12.7" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R7" library="rcl" package="R0603" value="" x="29.21" y="16.51" smashed="yes" rot="R270">
+<element name="R7" library="rcl" package="R0603" value="4k7" x="29.21" y="16.51" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.845" y="19.177" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="26.67" y="17.78" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R8" library="rcl" package="R0603" value="" x="29.21" y="21.59" smashed="yes" rot="R270">
+<element name="R8" library="rcl" package="R0603" value="4k7" x="29.21" y="21.59" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.845" y="24.257" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="26.67" y="22.86" size="1.27" layer="27" rot="R270"/>
 </element>
@@ -1879,14 +1879,14 @@ Please make sure your boards conform to these design rules.</description>
 <element name="AVRISP" library="SparkFun-Connectors" package="2X3_LOCK" value="AVR_SPI_PRG_62X3_LOCK" x="47.117" y="25.4" smashed="yes">
 <attribute name="NAME" x="47.625" y="22.606" size="0.8128" layer="25" font="vector" ratio="12"/>
 </element>
-<element name="R9" library="rcl" package="R0603" value="" x="49.53" y="13.335" smashed="yes">
+<element name="R9" library="rcl" package="R0603" value="4k7" x="49.53" y="13.335" smashed="yes">
 <attribute name="NAME" x="48.895" y="11.43" size="0.8128" layer="25" font="vector" ratio="12"/>
 <attribute name="VALUE" x="48.26" y="10.795" size="1.27" layer="27"/>
 </element>
 <element name="JP3" library="SparkFun-Connectors" package="USB-A-S-NOSILK-FEMALE" value="USB-A-SMD" x="11.43" y="10.16" smashed="yes" rot="MR90">
 <attribute name="PROD_ID" value="CONN-09520" x="11.43" y="10.16" size="1.016" layer="28" font="vector" rot="MR90" display="off"/>
 </element>
-<element name="R10" library="rcl" package="R0603" value="" x="31.75" y="26.67" smashed="yes" rot="R90">
+<element name="R10" library="rcl" package="R0603" value="1k2" x="31.75" y="26.67" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.766" y="29.337" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="34.29" y="25.4" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -1894,7 +1894,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="35.179" y="29.337" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="33.02" y="24.13" size="1.27" layer="27"/>
 </element>
-<element name="R11" library="rcl" package="R0603" value="" x="31.75" y="11.43" smashed="yes" rot="R90">
+<element name="R11" library="rcl" package="R0603" value="1k2" x="31.75" y="11.43" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.766" y="14.097" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="34.29" y="10.16" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -1902,7 +1902,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="35.179" y="14.097" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="33.02" y="8.89" size="1.27" layer="27"/>
 </element>
-<element name="R12" library="rcl" package="R0603" value="" x="31.75" y="16.51" smashed="yes" rot="R90">
+<element name="R12" library="rcl" package="R0603" value="1k2" x="31.75" y="16.51" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.766" y="19.177" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="34.29" y="15.24" size="1.27" layer="27" rot="R90"/>
 </element>
@@ -1910,7 +1910,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="35.179" y="19.177" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="33.02" y="13.97" size="1.27" layer="27"/>
 </element>
-<element name="R13" library="rcl" package="R0603" value="" x="31.75" y="21.59" smashed="yes" rot="R90">
+<element name="R13" library="rcl" package="R0603" value="1k2" x="31.75" y="21.59" smashed="yes" rot="R90">
 <attribute name="NAME" x="32.766" y="24.257" size="0.8128" layer="25" font="vector" ratio="12" rot="R180"/>
 <attribute name="VALUE" x="34.29" y="20.32" size="1.27" layer="27" rot="R90"/>
 </element>

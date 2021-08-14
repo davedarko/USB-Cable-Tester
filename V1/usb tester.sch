@@ -7987,35 +7987,35 @@ USB connector with shield pins connectable</description>
 </class>
 </classes>
 <parts>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R0603" value="1k2"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R0603" value="1k2"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R0603" value="1k2"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R0603" value="1k2"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="USB" device="-A-SMD"/>
 <part name="T1" library="transistor" deviceset="BC847" device=""/>
 <part name="T2" library="transistor" deviceset="BC847" device=""/>
 <part name="T3" library="transistor" deviceset="BC847" device=""/>
 <part name="T4" library="transistor" deviceset="BC847" device=""/>
-<part name="R5" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R7" library="rcl" deviceset="R-EU_" device="R0603"/>
-<part name="R8" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R5" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
+<part name="R7" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
+<part name="R8" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="L1" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="L2" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="L3" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="L4" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="AVRISP" library="SparkFun-Connectors" deviceset="AVR_SPI_PRG_6" device="2X3_LOCK"/>
-<part name="R9" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R9" library="rcl" deviceset="R-EU_" device="R0603" value="4k7"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="JP3" library="SparkFun-Connectors" deviceset="USB" device="-A-SMD"/>
-<part name="R10" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R10" library="rcl" deviceset="R-EU_" device="R0603" value="1k2"/>
 <part name="L5" library="led" deviceset="LED" device="CHIPLED_0805"/>
-<part name="R11" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R11" library="rcl" deviceset="R-EU_" device="R0603" value="1k2"/>
 <part name="L6" library="led" deviceset="LED" device="CHIPLED_0805"/>
-<part name="R12" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R12" library="rcl" deviceset="R-EU_" device="R0603" value="1k2"/>
 <part name="L7" library="led" deviceset="LED" device="CHIPLED_0805"/>
-<part name="R13" library="rcl" deviceset="R-EU_" device="R0603"/>
+<part name="R13" library="rcl" deviceset="R-EU_" device="R0603" value="1k2"/>
 <part name="L8" library="led" deviceset="LED" device="CHIPLED_0805"/>
 <part name="P+4" library="supply1" deviceset="VCC" device=""/>
 <part name="P+5" library="supply1" deviceset="VCC" device=""/>
@@ -8307,10 +8307,11 @@ USB connector with shield pins connectable</description>
 <segment>
 <pinref part="JP1" gate="G$1" pin="VBUS"/>
 <wire x1="119.38" y1="73.66" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="68.58" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="68.58" x2="106.68" y2="68.58" width="0.1524" layer="91"/>
 <junction x="119.38" y="68.58"/>
 <label x="106.68" y="68.58" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP2" gate="G$1" pin="VCC"/>
+<wire x1="119.38" y1="22.86" x2="119.38" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
@@ -8318,19 +8319,16 @@ USB connector with shield pins connectable</description>
 <pinref part="T2" gate="G$1" pin="C"/>
 <wire x1="76.2" y1="78.74" x2="76.2" y2="63.5" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="JP2" gate="G$1" pin="VCC"/>
-<wire x1="119.38" y1="22.86" x2="119.38" y2="53.34" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="CABLE_DMINUS" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="D-"/>
 <wire x1="116.84" y1="73.66" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="66.04" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="66.04" x2="106.68" y2="66.04" width="0.1524" layer="91"/>
 <junction x="116.84" y="66.04"/>
 <label x="106.68" y="66.04" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP2" gate="G$1" pin="D-"/>
+<wire x1="116.84" y1="22.86" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="91"/>
@@ -8338,29 +8336,22 @@ USB connector with shield pins connectable</description>
 <pinref part="T3" gate="G$1" pin="C"/>
 <wire x1="76.2" y1="38.1" x2="76.2" y2="22.86" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="JP2" gate="G$1" pin="D-"/>
-<wire x1="116.84" y1="22.86" x2="116.84" y2="53.34" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="CABLE_DPLUS" class="0">
 <segment>
 <pinref part="JP1" gate="G$1" pin="D+"/>
 <wire x1="114.3" y1="73.66" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="63.5" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="63.5" x2="106.68" y2="63.5" width="0.1524" layer="91"/>
 <junction x="114.3" y="63.5"/>
 <label x="106.68" y="63.5" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="JP2" gate="G$1" pin="D+"/>
+<wire x1="114.3" y1="22.86" x2="114.3" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="38.1" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
 <label x="38.1" y="38.1" size="1.016" layer="95" xref="yes"/>
 <pinref part="T4" gate="G$1" pin="C"/>
 <wire x1="35.56" y1="22.86" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="G$1" pin="D+"/>
-<wire x1="114.3" y1="22.86" x2="114.3" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OTHER_GROUND" class="0">
@@ -8593,6 +8584,16 @@ USB connector with shield pins connectable</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="113,1,156.21,53.0183,L1,,,,,"/>
+<approved hash="113,1,163.83,58.0983,L2,,,,,"/>
+<approved hash="113,1,156.21,63.1783,L3,,,,,"/>
+<approved hash="113,1,163.83,68.2583,L4,,,,,"/>
+<approved hash="113,1,23.1817,69.85,L5,,,,,"/>
+<approved hash="113,1,63.8217,69.85,L6,,,,,"/>
+<approved hash="113,1,63.8217,29.21,L7,,,,,"/>
+<approved hash="113,1,23.1817,29.21,L8,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
